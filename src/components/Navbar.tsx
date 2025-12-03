@@ -17,13 +17,13 @@ const Navbar: React.FC = () => {
         <div className="flex items-center space-x-4">
           <button
             onClick={() => window.location.reload()}
-            className="text-green-700 hover:text-green-900"
+            className="text-green-700 mx-2 hover:text-green-900"
           >
             {t('home')}
           </button>
           <button
             onClick={() => document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' })}
-            className="text-green-700 hover:text-green-900"
+            className="text-green-700 mx-2 hover:text-green-900"
           >
             {t('about')}
           </button>

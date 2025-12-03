@@ -20,13 +20,13 @@ const Home: React.FC = () => {
         <div className="flex justify-center mx-5 space-x-4">
           <a
             href="tel:+966123456789"
-            className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition"
+            className="bg-green-500 text-white mx-5 px-6 py-3 rounded-lg hover:bg-green-600 transition"
           >
             {t('call')}
           </a>
           <a
             href="mailto:info@alsanober.com"
-            className="bg-green-600 text-white  px-6 py-3 rounded-lg hover:bg-green-700 transition"
+            className="bg-green-600 text-white mx-5 px-6 py-3 rounded-lg hover:bg-green-700 transition"
           >
             {t('email')}
           </a>
